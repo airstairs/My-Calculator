@@ -1,13 +1,13 @@
 .button {
   color: red;
   flex: 1;
-  width: 24%;
+  width: 730px;
   height:200px;
   background-color: lightblue;
   border: 2px solid black;
   text-align: center;
   padding: 3px;
-  font-size:72px;
+  font-size:92px;
 }
 .button:hover {
   background-color: yellow;
@@ -22,5 +22,8 @@
 }
 
 h1 {
-  font-size: 179px;
+  font-size: 39px;
+}
+html, body {
+  touch-action: pan-x, pan-y;
 }
