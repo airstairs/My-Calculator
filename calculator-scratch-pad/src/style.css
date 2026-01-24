@@ -1,0 +1,26 @@
+.button {
+  color: red;
+  flex: 1;
+  width: 24%;
+  height:200px;
+  background-color: lightblue;
+  border: 2px solid black;
+  text-align: center;
+  padding: 3px;
+  font-size:72px;
+}
+.button:hover {
+  background-color: yellow;
+}
+.button:active {
+  background-color: red;
+  color: white;
+}
+
+.button-row {
+  display:flex;
+}
+
+h1 {
+  font-size: 179px;
+}
